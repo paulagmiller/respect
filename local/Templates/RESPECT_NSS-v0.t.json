@@ -24,7 +24,7 @@
       "Sign off" : "",
       "Speciality" : "",
       "User roles" : "",
-      "MD5-CAM-1.0.1" : "1c80ab6b584c46fd7047ddbf87fb4a61",
+      "MD5-CAM-1.0.1" : "30e342105cd92f1dd7a1d85be5f2a280",
       "PARENT:MD5-CAM-1.0.1" : "1DA7D8EDC23CF1B673C05E6E8FE28EB1"
     },
     "details" : {
@@ -945,7 +945,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E3A8F38126B720CBCBCA085F2190A241"
+        "PARENT:MD5-CAM-1.0.1" : "714FD09D39A922BCADF58B178C81E8BB"
       },
       "details" : {
         "de" : {
@@ -1072,6 +1072,21 @@
           "keywords" : [ "*fråga", "tillstånd", "problem", "diagnos", "oro", "skada", "klinisk tolkning" ],
           "use" : "Används för att beskriva ett enskilt identifierat hälsoproblem eller diagnos.\r\nTydliga definitioner som möjliggör en differentiering mellan ett \"problem\" och en \"diagnos\" är nästan omöjliga i praktiken. Vi kan inte på ett tillförlitligt sätt säga när ett problem bör betraktas som en diagnos. När diagnostiska eller klassificeringskriterier är uppfyllda kan vi tryggt kalla tillståndet en formell diagnos. \r\n\r\nOm det finns stödjande bevis tillgängligt, kan det ändå vara giltigt att använda termen \"diagnos\" trots att dessa villkor ännu inte uppfyllts. Det är inte lätt att definiera mängden stödjande bevis som krävs för diagnosmärkning och i verkligheten varierar det från fall till fall. Många standardkommittéer har brottats med denna definitionsgåta i åratal utan tydlig upplösning.\r\n\r\nVid tillämpning av klinisk dokumentation med denna arketyp betraktas problem och diagnoser som ett kontinuum med utrymme för fler detaljer och stödjande bevis som vanligtvis ger stöd för märkningen \"diagnos\". I denna arketyp är det inte nödvändigt att klassificera tillståndet som ett \"problem\" eller \"diagnos\". Kraven för att stödja dokumentation av vardera är identiska, innehållande extra datastruktur som krävs för att stödja inmatning av bevis om och när den blir tillgänglig.\r\nExempel på problem är: individens uttryckliga önskan att gå ner i vikt, men utan en formell diagnos av fetma eller ett relationsproblem med en familjemedlem. Exempel på formella diagnoser skulle omfatta cancer som stöds av anamnes, undersökningsfynd, histopatologiska fynd, radiologiska fynd samt möter alla kända kriteriekrav för diagnostik. \r\n\r\nI praktiken befinner sig de flesta problem eller diagnoser inte i någon ände av problemet-diagnos spektrumet, utan någonstans däremellan. \r\nDenna arketyp kan användas i flera kontexter, exempelvis för dokumentation av ett problem eller en klinisk diagnos under en klinisk konsultation, ifyllnad av en fast problemlista eller för en redogörande sammanfattning i ett utskrivningsdokument.\r\n\r\nI praktiken använder kliniker många kontext-specifika bestämningar som exempelvis tidigare och nuvarande, primär och sekundär, aktiv och inaktiv, inskrivning och utskrivning etc. Kontexterna kan vara plats-, specialitet-, episod-eller arbetsflödes-specifika. Dessa kan orsaka förvirring eller t.o.m. vara potentiella säkerhetsproblem om de förevigas i problemlistor eller delas i dokument som är utanför den ursprungliga kontexten.\r\nDessa bestämningar kan vara separata i arketyperna och ingår i \"status\"-fältet, eftersom deras användning varierar i olika inställningar. \r\nDet förväntas att de huvudsakligen används i en lämplig kontext och inte sprids utanför kontexten utan tydlig förståelse för potentiella konsekvenser.\r\nExempelvis kan en diagnos vara primär för en kliniker och sekundär för en annan specialist, ett aktivt problem kan bli inaktivt (eller vice versa) och detta kan påverka den säkra användningen av kliniskt beslutsstöd.\r\n\r\nI allmänhet bör dessa bestämningar tillämpas lokalt inom ramen för det kliniska systemet, och i praktiken bör dessa tillstånd ordnas manuellt av kliniker för att säkerställa att listor över nuvarande och tidigare, aktiv och inaktiv eller primärt och sekundärt problem är kliniskt korrekta.\r\nDenna arketyp kommer att användas som en komponent inom den problemorienterade patientjournalen som beskrivs av Larry Weed. Ytterligare arketyper, som presenterar kliniska begrepp som villkor som en övergripande organisatör för diagnoser etc. kommer att behöva utvecklas för att stödja denna strategi.\r\n\r\nI vissa situationer, kan identifiering av en diagnos vara lämplig enbart inom läkarnas expertis, men det är inte avsikten med denna arketyp. Diagnoser kan dokumenteras med hjälp av denna arketyp av vilken som helst sjukvårdspersonal.\r\n",
           "misuse" : "Ska inte användas för att dokumentera symtom som beskrivs av individen. Använd CLUSTER. symptom arketypen vanligtvis inom OBSERVATION.story-arketypen för det ändamålet.\r\n\r\nSka inte användas för att dokumentera undersökningsfynd. Använda då istället arketyper från den undersökningsrelaterade gruppen CLUSTER- som oftast är inkapslad i Observation Exam-arketypen.\r\n\r\nSka inte användas för att dokumentera testresultat från laboratoriet eller till relaterade diagnoser, exempelvis patologiska diagnoser. Använd då istället en lämplig arketyp från laboratoriegruppen OBSERVATION.\r\n\r\nSka inte användas för att dokumentera undersökningsfynd genom bildmedia eller bilddiagnostik. Använd då istället en lämplig arketyp från bildmediegruppen OBSERVATION arketyper.\r\n\r\nSka inte användas för att dokumentera \"differentialdiagnostik\". Använd då istället EVALUATION.differential_diagnosis-arketypen.\r\n\r\nSka inte användas för att dokumentera \"Anledning till Vårdtillfälle\" eller \"Huvudsakligt besvär\". Använd EVALUATION.reason_for_encounter-arketypen till dessa ändamål.\r\n\r\nSka inte användas för att dokumentera åtgärder. Använd då istället ACTION.procedure-arketypen.\r\n\r\nSka inte användas för att dokumentera uppgifter om graviditet. Använd EVALUATION.pregnancy_bf_status och EVALUATION.pregnancy och relaterade arketyper till dessa ändamål.\r\n\r\nSka inte användas för att dokumentera bedömningar om hälsorisker eller potentiella problem. Använd då istället EVALUATION.health_risk-arketypen.\r\n\r\nSka inte användas för att dokumentera redogörelser om biverkningar, allergier eller intoleranser. Använd EVALUATION.adverse_reaction-arketyp för dessa ändamål.\r\n\r\nSka inte användas för särskild dokumentering av frånvaro (eller negativ närvaro) av ett problem eller en diagnos, exempelvis \"inga kända problem eller diagnoser\" eller \"Ingen känd diabetes\". Använd EVALUATION.exclusion-problem_arketypen för att uttrycka ett positivt utlåtande om uteslutning av ett problem eller diagnos. \r\n\r\n",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ko" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ko"
+          },
+          "purpose" : "단일한 확인된 건강 문제 또는 진단에 대한 상세내역을 기록하기 위함.\r\n\r\n의도된 건강 문제의 범위는 어느 정도로 개인의 웰빙에 좋지않은 방향으로 영향을 주는 모든 실제 또는 인지된 걱정(concern)를 획득하기 위해 궁극적으로 임상 문서의 문맥에서 느슨하게 유지됨. 건강 문제는 해당 개인, 또는 보호자, 헬스케어 전문가에 의해 확인될 수도 있음. 그러나 진단은 객관적인 임상적 기준에 근거하여 추가적으로 정의되며, 일반적으로 헬스케어 전문가들에 의해서만 결정됨.",
+          "keywords" : [ "이슈", "상태", "진단", "걱정", "상해", "임상소견" ],
+          "use" : "단일한 확인된 건강 문제 또는 진단에 대한 상세내역을 기록하기 위함.\r\n\r\n'문제(problem)'와 '진단(diagnosis)' 간의 차이를 구분할 수 있는 명확한 정의는 실무에서 거의 불가능함 - 우리는 문제가 언제 진단으로 간주되어야 하는지를 신뢰성있게 구별할 수 없음. 진단 또는 분류 기준이 성공적으로 만족될 때, 우리는 상태(condition)를 정규적인 진단으로 확실하게 말할 수 있지만, 이런 상태를 만족하기 이전에, 지지할 수 있는 증거를 이용가능하다면 '진단'이라는 용어를 또한 사용하는 것이 유효할 수 있음. 진단이라는 표시를 위해 필요한 지지할 수 있는 증거의 양은 정의하기 쉽지 않고 실제로 상태에 따라 다양할 수 있음. 많은 표준 기구는 수 년 동안 명확한 해결책없이 이러한 정의적인 문제로 가득 차 있음. \r\n\r\n이 아키타입을 통한 임상 문서의 목적을 위해서, 증가하는 상세내용의 수준과 일반적으로 '진단'의 표시에 대한 무게감을 제공하는 지지할 수 있는 증거를 가지고, 문제와 진단은 연속된 것(a continuum)으로 간주됨. 이 아키타입 내에서 상태를 '문제' 또는 '진단'로 분류할 필요는 없음. 두 가지의 문서화를 보조하기 위한 데이터 요구사항은 동일하며, 증거가 이용가능하거나/이용가능할 때 이 증거의 포함(inclusion)을 지원하는 데 필요한 추가적인 데이터 구조를 가지고 있음. 문제의 예는 다음을 포함함 : 체중을 줄이고 싶다는 개인의 표현, 그러나 비만의 정규적인 진단은 없음. 또는 가정 구성원과의 관계 문제. 정규적인 진단의 예는 과거 정보와 검사 소견, 조직병리학적 소견, 영상의학적 소견에 의해 지지되고 알려진 진단적 기준을 위한 모든 요구사항을 만족하는 암이 포함됨. 실무에서 대부분의 문제와 진단은 문제-진단 스펙트럼의 양 끝에 있지 않지만 그 사이 어딘가에 있음.\r\n\r\n이 아키타입은 많은 문맥 내에서 사용될 수 있음. 예를 들어, 임상 자문 동안 문제 또는 임상적 진단를 기록하는 것; 영속적인 문제 목록(persistent Problem List)을 채우는 것; 또는 퇴원 요약 문서(Dischatge Summary document) 내에 요약 문장(summary statement)을 제공하는 것.\r\n\r\n실무에서 임상의는 과거/현재(Present/Past), 일차/이차(Primary/Secondary), 활성/비활성(Active/Inactive), 입원/퇴원(Admission/Discharge) 등 많은 문맥-특징적인 한정자(qualifiers)를 사용함. 문맥은 위치-, 세부전공-, 에피소드-, 워크플로우-특징적 이며 이러한 것들은 원래 문맥에서 벗어난 문제 목록에서 유지되거나 문서 내에서 공유된다면 혼란 또는 심어서 잠재적인 안전 이슈를 발생시킬 수 있음. 이러한 한정자의 이용이 잠재적인 결과에 대한 명확한 이해없이 문맥에 따라 다양하기 때문에, 한정자는 구분되어 아키타입화될 수 있고 'Status' slot에 포함될 수 있음. 예를 들어, 어떤 한 임상의의 일차 진단은 다른 전문의에게는 이차 진단일 수 있음; 현재 활성화된(active) 진단은 비활성화될 수 있음 (또는 그 반대) 그리고 이것은 안전한 임상의사결정의 사용에 영향을 줄 수 있음. 일반적으로 이러한 한정자는 임상 시스템의 문맥 내에서 그 부분에서 적용되어야 하고, 실무에서 이러한 상태는, 현재/과거 또는 활성/비활성, 일차/이차 문제의 목록은 임상적으로 정확하다는 것을 보장하기위해서 임상의에 의해 수기로 조정될 수 있음.\r\n\r\n이 아키타입은 Larry Weed가 기술한 문제지향의무기록(Problem Oriented Medical Record) 내에서 컴포넌트로 사용될 것임. 상태와 같은 임상 개념을 진단을 위한 포괄적인 구성자(organizer)로 표현하는 추가적인 아키타입은 이러한 접근방식을 지원하기 위해 개발될 필요가 있을 것임.\r\n\r\n몇몇 상황에서, 진단의 확인은 임상의의 전문성 안에서만 적용한다는 가정이 될 수 있지만 이것은 이 아카타입이 의도하는 바는 아님. 모든 헬스케어 전문가가 이 아키타입을 이용해 진단을 기록할 수 있음.",
+          "misuse" : "개인에 의해 기술된 증상을 기록하는데 사용하지 않아야 함 - 보통 OBSERVATION.story archetype 내에서 CLUSTER.symptom archetype을 사용해야 함.\r\n\r\n검사 소견을 기록하는데 사용하지 않아야 함 - 보통 OBSERVATION.exam archetype 내에 중첩되어, examination-related CLUSTER archetypes 계열을 사용해야 함.\r\n\r\n검사실 검사 결과 또는 병리학적 검사와 같은 관련된 진단을 기록하는데 사용하지 않아야 함 - 보통 검사실 계열의 OBSERVATION archetype에서 적당한 archetype을 사용해야 함.\r\n\r\n이미지 검사 결과 또는 이미지 진단을 기록하는데 사용하지 않아야 함 - 이미지 계열의 OBSERVATION archetype에서 적당한 archetype을 사용해야 함.\r\n\r\n'감별 진단'을 기록하는데 사용하지 않아야 함 - EVALUATION.differential_diagnosis archetype을 사용해야 함.\r\n\r\n'내원의 이유(Reason for Encounter)' 또는 '주호소(Presenting Complaint)'를 기록하는데 사용지 않아야 함 - EVALUATION.reason_for_encounter archetype을 사용해야 함.\r\n\r\n'처치(procedure)'를 기록하는데 사용하지 않아야 함 - ACTION.procedure archetype를 사용해야 함.\r\n\r\n임신에 대한 상세내용을 기록하는데 사용하지 않아야 함 - EVALUATION.pregnancy_bf_status와 EVALUATION.pregnancy 그리고 관련된 archetypes를 사용해야 함.\r\n\r\n건강 위험요소(health risk) 및 잠재적인 문제에 대한 진술문을 기록하는데 사용하지 않아야 함 - EVALUATION.health_risk archetype을 사용해야 함.\r\n\r\n이상반응(adverse reactions), 알레르기(allergies) 또는 불내성(intolerances)에 대한 진술문을 기록하는데 사용하지 않아야 함 - EVALUATION.adverse_reaction archetype을 사용해야 함.\r\n\r\n'알려진 문제 또는 진단 없음' 또는 '알려진 당뇨병 없음' 등과 같은 문제와 진단의 부재(absence (or negative presence))을 명시적으로 기록하는데 사용하지 않아야 함 - 문제 또는 진단의 배제(exclusion)에 대한 긍정 진술문(positive statement)을 표현하는데 EVALUATION.exclusion-problem_diagnosis archetype을 사용해야 함.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -1401,7 +1416,8 @@
             "comment" : "*Coding of the name of the anatomical location with a terminology is preferred, where possible.\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant. \n\n(en)"
           }
         },
-        "sv" : { }
+        "sv" : { },
+        "ko" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -1515,6 +1531,21 @@
         "email" : "ext.kirsi.poikela@tieto.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ko"
+      },
+      "author" : {
+        "name" : "Seung-Jong Yu",
+        "organisation" : "InfoClinic Co.,Ltd.",
+        "email" : "seungjong.yu@gmail.com"
+      },
+      "accreditation" : "M.D.",
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -1527,7 +1558,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E3A8F38126B720CBCBCA085F2190A241"
+        "PARENT:MD5-CAM-1.0.1" : "714FD09D39A922BCADF58B178C81E8BB"
       },
       "details" : {
         "de" : {
@@ -1654,6 +1685,21 @@
           "keywords" : [ "*fråga", "tillstånd", "problem", "diagnos", "oro", "skada", "klinisk tolkning" ],
           "use" : "Används för att beskriva ett enskilt identifierat hälsoproblem eller diagnos.\r\nTydliga definitioner som möjliggör en differentiering mellan ett \"problem\" och en \"diagnos\" är nästan omöjliga i praktiken. Vi kan inte på ett tillförlitligt sätt säga när ett problem bör betraktas som en diagnos. När diagnostiska eller klassificeringskriterier är uppfyllda kan vi tryggt kalla tillståndet en formell diagnos. \r\n\r\nOm det finns stödjande bevis tillgängligt, kan det ändå vara giltigt att använda termen \"diagnos\" trots att dessa villkor ännu inte uppfyllts. Det är inte lätt att definiera mängden stödjande bevis som krävs för diagnosmärkning och i verkligheten varierar det från fall till fall. Många standardkommittéer har brottats med denna definitionsgåta i åratal utan tydlig upplösning.\r\n\r\nVid tillämpning av klinisk dokumentation med denna arketyp betraktas problem och diagnoser som ett kontinuum med utrymme för fler detaljer och stödjande bevis som vanligtvis ger stöd för märkningen \"diagnos\". I denna arketyp är det inte nödvändigt att klassificera tillståndet som ett \"problem\" eller \"diagnos\". Kraven för att stödja dokumentation av vardera är identiska, innehållande extra datastruktur som krävs för att stödja inmatning av bevis om och när den blir tillgänglig.\r\nExempel på problem är: individens uttryckliga önskan att gå ner i vikt, men utan en formell diagnos av fetma eller ett relationsproblem med en familjemedlem. Exempel på formella diagnoser skulle omfatta cancer som stöds av anamnes, undersökningsfynd, histopatologiska fynd, radiologiska fynd samt möter alla kända kriteriekrav för diagnostik. \r\n\r\nI praktiken befinner sig de flesta problem eller diagnoser inte i någon ände av problemet-diagnos spektrumet, utan någonstans däremellan. \r\nDenna arketyp kan användas i flera kontexter, exempelvis för dokumentation av ett problem eller en klinisk diagnos under en klinisk konsultation, ifyllnad av en fast problemlista eller för en redogörande sammanfattning i ett utskrivningsdokument.\r\n\r\nI praktiken använder kliniker många kontext-specifika bestämningar som exempelvis tidigare och nuvarande, primär och sekundär, aktiv och inaktiv, inskrivning och utskrivning etc. Kontexterna kan vara plats-, specialitet-, episod-eller arbetsflödes-specifika. Dessa kan orsaka förvirring eller t.o.m. vara potentiella säkerhetsproblem om de förevigas i problemlistor eller delas i dokument som är utanför den ursprungliga kontexten.\r\nDessa bestämningar kan vara separata i arketyperna och ingår i \"status\"-fältet, eftersom deras användning varierar i olika inställningar. \r\nDet förväntas att de huvudsakligen används i en lämplig kontext och inte sprids utanför kontexten utan tydlig förståelse för potentiella konsekvenser.\r\nExempelvis kan en diagnos vara primär för en kliniker och sekundär för en annan specialist, ett aktivt problem kan bli inaktivt (eller vice versa) och detta kan påverka den säkra användningen av kliniskt beslutsstöd.\r\n\r\nI allmänhet bör dessa bestämningar tillämpas lokalt inom ramen för det kliniska systemet, och i praktiken bör dessa tillstånd ordnas manuellt av kliniker för att säkerställa att listor över nuvarande och tidigare, aktiv och inaktiv eller primärt och sekundärt problem är kliniskt korrekta.\r\nDenna arketyp kommer att användas som en komponent inom den problemorienterade patientjournalen som beskrivs av Larry Weed. Ytterligare arketyper, som presenterar kliniska begrepp som villkor som en övergripande organisatör för diagnoser etc. kommer att behöva utvecklas för att stödja denna strategi.\r\n\r\nI vissa situationer, kan identifiering av en diagnos vara lämplig enbart inom läkarnas expertis, men det är inte avsikten med denna arketyp. Diagnoser kan dokumenteras med hjälp av denna arketyp av vilken som helst sjukvårdspersonal.\r\n",
           "misuse" : "Ska inte användas för att dokumentera symtom som beskrivs av individen. Använd CLUSTER. symptom arketypen vanligtvis inom OBSERVATION.story-arketypen för det ändamålet.\r\n\r\nSka inte användas för att dokumentera undersökningsfynd. Använda då istället arketyper från den undersökningsrelaterade gruppen CLUSTER- som oftast är inkapslad i Observation Exam-arketypen.\r\n\r\nSka inte användas för att dokumentera testresultat från laboratoriet eller till relaterade diagnoser, exempelvis patologiska diagnoser. Använd då istället en lämplig arketyp från laboratoriegruppen OBSERVATION.\r\n\r\nSka inte användas för att dokumentera undersökningsfynd genom bildmedia eller bilddiagnostik. Använd då istället en lämplig arketyp från bildmediegruppen OBSERVATION arketyper.\r\n\r\nSka inte användas för att dokumentera \"differentialdiagnostik\". Använd då istället EVALUATION.differential_diagnosis-arketypen.\r\n\r\nSka inte användas för att dokumentera \"Anledning till Vårdtillfälle\" eller \"Huvudsakligt besvär\". Använd EVALUATION.reason_for_encounter-arketypen till dessa ändamål.\r\n\r\nSka inte användas för att dokumentera åtgärder. Använd då istället ACTION.procedure-arketypen.\r\n\r\nSka inte användas för att dokumentera uppgifter om graviditet. Använd EVALUATION.pregnancy_bf_status och EVALUATION.pregnancy och relaterade arketyper till dessa ändamål.\r\n\r\nSka inte användas för att dokumentera bedömningar om hälsorisker eller potentiella problem. Använd då istället EVALUATION.health_risk-arketypen.\r\n\r\nSka inte användas för att dokumentera redogörelser om biverkningar, allergier eller intoleranser. Använd EVALUATION.adverse_reaction-arketyp för dessa ändamål.\r\n\r\nSka inte användas för särskild dokumentering av frånvaro (eller negativ närvaro) av ett problem eller en diagnos, exempelvis \"inga kända problem eller diagnoser\" eller \"Ingen känd diabetes\". Använd EVALUATION.exclusion-problem_arketypen för att uttrycka ett positivt utlåtande om uteslutning av ett problem eller diagnos. \r\n\r\n",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ko" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ko"
+          },
+          "purpose" : "단일한 확인된 건강 문제 또는 진단에 대한 상세내역을 기록하기 위함.\r\n\r\n의도된 건강 문제의 범위는 어느 정도로 개인의 웰빙에 좋지않은 방향으로 영향을 주는 모든 실제 또는 인지된 걱정(concern)를 획득하기 위해 궁극적으로 임상 문서의 문맥에서 느슨하게 유지됨. 건강 문제는 해당 개인, 또는 보호자, 헬스케어 전문가에 의해 확인될 수도 있음. 그러나 진단은 객관적인 임상적 기준에 근거하여 추가적으로 정의되며, 일반적으로 헬스케어 전문가들에 의해서만 결정됨.",
+          "keywords" : [ "이슈", "상태", "진단", "걱정", "상해", "임상소견" ],
+          "use" : "단일한 확인된 건강 문제 또는 진단에 대한 상세내역을 기록하기 위함.\r\n\r\n'문제(problem)'와 '진단(diagnosis)' 간의 차이를 구분할 수 있는 명확한 정의는 실무에서 거의 불가능함 - 우리는 문제가 언제 진단으로 간주되어야 하는지를 신뢰성있게 구별할 수 없음. 진단 또는 분류 기준이 성공적으로 만족될 때, 우리는 상태(condition)를 정규적인 진단으로 확실하게 말할 수 있지만, 이런 상태를 만족하기 이전에, 지지할 수 있는 증거를 이용가능하다면 '진단'이라는 용어를 또한 사용하는 것이 유효할 수 있음. 진단이라는 표시를 위해 필요한 지지할 수 있는 증거의 양은 정의하기 쉽지 않고 실제로 상태에 따라 다양할 수 있음. 많은 표준 기구는 수 년 동안 명확한 해결책없이 이러한 정의적인 문제로 가득 차 있음. \r\n\r\n이 아키타입을 통한 임상 문서의 목적을 위해서, 증가하는 상세내용의 수준과 일반적으로 '진단'의 표시에 대한 무게감을 제공하는 지지할 수 있는 증거를 가지고, 문제와 진단은 연속된 것(a continuum)으로 간주됨. 이 아키타입 내에서 상태를 '문제' 또는 '진단'로 분류할 필요는 없음. 두 가지의 문서화를 보조하기 위한 데이터 요구사항은 동일하며, 증거가 이용가능하거나/이용가능할 때 이 증거의 포함(inclusion)을 지원하는 데 필요한 추가적인 데이터 구조를 가지고 있음. 문제의 예는 다음을 포함함 : 체중을 줄이고 싶다는 개인의 표현, 그러나 비만의 정규적인 진단은 없음. 또는 가정 구성원과의 관계 문제. 정규적인 진단의 예는 과거 정보와 검사 소견, 조직병리학적 소견, 영상의학적 소견에 의해 지지되고 알려진 진단적 기준을 위한 모든 요구사항을 만족하는 암이 포함됨. 실무에서 대부분의 문제와 진단은 문제-진단 스펙트럼의 양 끝에 있지 않지만 그 사이 어딘가에 있음.\r\n\r\n이 아키타입은 많은 문맥 내에서 사용될 수 있음. 예를 들어, 임상 자문 동안 문제 또는 임상적 진단를 기록하는 것; 영속적인 문제 목록(persistent Problem List)을 채우는 것; 또는 퇴원 요약 문서(Dischatge Summary document) 내에 요약 문장(summary statement)을 제공하는 것.\r\n\r\n실무에서 임상의는 과거/현재(Present/Past), 일차/이차(Primary/Secondary), 활성/비활성(Active/Inactive), 입원/퇴원(Admission/Discharge) 등 많은 문맥-특징적인 한정자(qualifiers)를 사용함. 문맥은 위치-, 세부전공-, 에피소드-, 워크플로우-특징적 이며 이러한 것들은 원래 문맥에서 벗어난 문제 목록에서 유지되거나 문서 내에서 공유된다면 혼란 또는 심어서 잠재적인 안전 이슈를 발생시킬 수 있음. 이러한 한정자의 이용이 잠재적인 결과에 대한 명확한 이해없이 문맥에 따라 다양하기 때문에, 한정자는 구분되어 아키타입화될 수 있고 'Status' slot에 포함될 수 있음. 예를 들어, 어떤 한 임상의의 일차 진단은 다른 전문의에게는 이차 진단일 수 있음; 현재 활성화된(active) 진단은 비활성화될 수 있음 (또는 그 반대) 그리고 이것은 안전한 임상의사결정의 사용에 영향을 줄 수 있음. 일반적으로 이러한 한정자는 임상 시스템의 문맥 내에서 그 부분에서 적용되어야 하고, 실무에서 이러한 상태는, 현재/과거 또는 활성/비활성, 일차/이차 문제의 목록은 임상적으로 정확하다는 것을 보장하기위해서 임상의에 의해 수기로 조정될 수 있음.\r\n\r\n이 아키타입은 Larry Weed가 기술한 문제지향의무기록(Problem Oriented Medical Record) 내에서 컴포넌트로 사용될 것임. 상태와 같은 임상 개념을 진단을 위한 포괄적인 구성자(organizer)로 표현하는 추가적인 아키타입은 이러한 접근방식을 지원하기 위해 개발될 필요가 있을 것임.\r\n\r\n몇몇 상황에서, 진단의 확인은 임상의의 전문성 안에서만 적용한다는 가정이 될 수 있지만 이것은 이 아카타입이 의도하는 바는 아님. 모든 헬스케어 전문가가 이 아키타입을 이용해 진단을 기록할 수 있음.",
+          "misuse" : "개인에 의해 기술된 증상을 기록하는데 사용하지 않아야 함 - 보통 OBSERVATION.story archetype 내에서 CLUSTER.symptom archetype을 사용해야 함.\r\n\r\n검사 소견을 기록하는데 사용하지 않아야 함 - 보통 OBSERVATION.exam archetype 내에 중첩되어, examination-related CLUSTER archetypes 계열을 사용해야 함.\r\n\r\n검사실 검사 결과 또는 병리학적 검사와 같은 관련된 진단을 기록하는데 사용하지 않아야 함 - 보통 검사실 계열의 OBSERVATION archetype에서 적당한 archetype을 사용해야 함.\r\n\r\n이미지 검사 결과 또는 이미지 진단을 기록하는데 사용하지 않아야 함 - 이미지 계열의 OBSERVATION archetype에서 적당한 archetype을 사용해야 함.\r\n\r\n'감별 진단'을 기록하는데 사용하지 않아야 함 - EVALUATION.differential_diagnosis archetype을 사용해야 함.\r\n\r\n'내원의 이유(Reason for Encounter)' 또는 '주호소(Presenting Complaint)'를 기록하는데 사용지 않아야 함 - EVALUATION.reason_for_encounter archetype을 사용해야 함.\r\n\r\n'처치(procedure)'를 기록하는데 사용하지 않아야 함 - ACTION.procedure archetype를 사용해야 함.\r\n\r\n임신에 대한 상세내용을 기록하는데 사용하지 않아야 함 - EVALUATION.pregnancy_bf_status와 EVALUATION.pregnancy 그리고 관련된 archetypes를 사용해야 함.\r\n\r\n건강 위험요소(health risk) 및 잠재적인 문제에 대한 진술문을 기록하는데 사용하지 않아야 함 - EVALUATION.health_risk archetype을 사용해야 함.\r\n\r\n이상반응(adverse reactions), 알레르기(allergies) 또는 불내성(intolerances)에 대한 진술문을 기록하는데 사용하지 않아야 함 - EVALUATION.adverse_reaction archetype을 사용해야 함.\r\n\r\n'알려진 문제 또는 진단 없음' 또는 '알려진 당뇨병 없음' 등과 같은 문제와 진단의 부재(absence (or negative presence))을 명시적으로 기록하는데 사용하지 않아야 함 - 문제 또는 진단의 배제(exclusion)에 대한 긍정 진술문(positive statement)을 표현하는데 EVALUATION.exclusion-problem_diagnosis archetype을 사용해야 함.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -1983,7 +2029,8 @@
             "comment" : "*Coding of the name of the anatomical location with a terminology is preferred, where possible.\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant. \n\n(en)"
           }
         },
-        "sv" : { }
+        "sv" : { },
+        "ko" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -2096,6 +2143,21 @@
         "organisation" : "Tieto Sweden AB",
         "email" : "ext.kirsi.poikela@tieto.com"
       },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ko"
+      },
+      "author" : {
+        "name" : "Seung-Jong Yu",
+        "organisation" : "InfoClinic Co.,Ltd.",
+        "email" : "seungjong.yu@gmail.com"
+      },
+      "accreditation" : "M.D.",
       "otherDetails" : { }
     } ]
   }, {
