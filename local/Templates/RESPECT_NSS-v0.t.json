@@ -24,7 +24,7 @@
       "Sign off" : "",
       "Speciality" : "",
       "User roles" : "",
-      "MD5-CAM-1.0.1" : "e849ccabfac737a1accaac2de3a304a9",
+      "MD5-CAM-1.0.1" : "1c80ab6b584c46fd7047ddbf87fb4a61",
       "PARENT:MD5-CAM-1.0.1" : "1DA7D8EDC23CF1B673C05E6E8FE28EB1"
     },
     "details" : {
@@ -754,7 +754,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "1D746F24E18DE29D56F6442204353C22"
+        "PARENT:MD5-CAM-1.0.1" : "0B3F7E319DC345D6A97BDBE18C79D83A"
       },
       "details" : {
         "nb" : {
@@ -945,7 +945,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "767E39313E0D137FA9E95FE7477DEEF8"
+        "PARENT:MD5-CAM-1.0.1" : "E3A8F38126B720CBCBCA085F2190A241"
       },
       "details" : {
         "de" : {
@@ -1311,19 +1311,6 @@
             "text" : "Key diagnosis",
             "description" : "*Identification of the problem or diagnosis, by name.(en)",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
-          },
-          "at0077.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0077",
-            "text" : "*Date of onset(en)",
-            "description" : "*Estimated or actual date/time that signs or symptoms of the problem/diagnosis were first observed.\n(en)"
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "*Body site(en)",
-            "description" : "*Identification of a simple body site for the location of the problem or diagnosis.(en)",
-            "comment" : "*Coding of the name of the anatomical location with a terminology is preferred, where possible.\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant. \n\n(en)"
           }
         },
         "es-ar" : {
@@ -1333,13 +1320,6 @@
             "text" : "Key diagnosis",
             "description" : "Identificación del problema o diagnóstico, por nombre.",
             "comment" : "Se prefiere la codificación del nombre del problema o diagnóstico mediante una terminología cuando esto sea posible."
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "Sitio corporal",
-            "description" : "Identificación de un sitio corporal simple para la localización o el problema.",
-            "comment" : "Se prefiere la codificación de la localización anatómica mediante una terminología cuando esto sea posible.\nUtilícese este dato para registrar localizaciones anatómicas precoordinadas. Si los requerimientos para el registro de una localización anatómica son determinadas en tiempo de ejecución por parte de la aplicación, o se requiere un modelado más complejo tal como una localización relativa, utilícese CLUSTER.anatomical_location or CLUSTER.relative_location dentro del slot \"localización anatómica estructurada\" en este arquetipo. Las ocurrencias de este dato son ilimitadas para así permitir escenarios clínicos tales como la descripción de un rash en múltiples localizaciones pero donde todos los demás atributos son idénticos. Si la localización anatómica esta incluida en el nombre del problema o diagnóstico mediante códigos precoordinados, este dato se torna redundante."
           }
         },
         "de" : {
@@ -1349,19 +1329,6 @@
             "text" : "Key diagnosis",
             "description" : "*Identification of the problem or diagnosis, by name.(en)",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
-          },
-          "at0077.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0077",
-            "text" : "*Date of onset(en)",
-            "description" : "*Estimated or actual date/time that signs or symptoms of the problem/diagnosis were first observed.\n(en)"
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "*Body site(en)",
-            "description" : "*Identification of a simple body site for the location of the problem or diagnosis.(en)",
-            "comment" : "*Coding of the name of the anatomical location with a terminology is preferred, where possible.\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant. \n\n(en)"
           }
         },
         "en" : {
@@ -1371,20 +1338,6 @@
             "text" : "Key diagnosis",
             "description" : "Identification of the problem or diagnosis, by name.",
             "comment" : "Coding of the name of the problem or diagnosis with a terminology is preferred, where possible."
-          },
-          "at0030.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0030",
-            "text" : "Date/time of resolution",
-            "description" : "Estimated or actual date/time of resolution or remission for this problem or diagnosis, as determined by a healthcare professional.",
-            "comment" : "Partial dates are acceptable. If the subject of care is under the age of one year, then the complete date or a minimum of the month and year is necessary to enable accurate age calculations - for example, if used to drive decision support. Data captured/imported as \"Age at time of resolution\" should be converted to a date using the subject's date of birth.\n"
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "Body site",
-            "description" : "Identification of a simple body site for the location of the problem or diagnosis.",
-            "comment" : "Coding of the name of the anatomical location with a terminology is preferred, where possible.\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant. \n\n"
           }
         },
         "ar-sy" : {
@@ -1394,19 +1347,6 @@
             "text" : "Key diagnosis",
             "description" : "*Identification of the problem or diagnosis, by name.(en)",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
-          },
-          "at0077.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0077",
-            "text" : "*Date of onset(en)",
-            "description" : "*Estimated or actual date/time that signs or symptoms of the problem/diagnosis were first observed.\n(en)"
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "*Body site(en)",
-            "description" : "*Identification of a simple body site for the location of the problem or diagnosis.(en)",
-            "comment" : "*Coding of the name of the anatomical location with a terminology is preferred, where possible.\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant. \n\n(en)"
           }
         },
         "pt-br" : {
@@ -1416,34 +1356,6 @@
             "text" : "Key diagnosis",
             "description" : "Identificação do problema ou diagnóstico, por nome.",
             "comment" : "Quando possível, é preferível usar a codificação do nome do problema ou diagnóstico com uma terminologia."
-          },
-          "at0003.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0003",
-            "text" : "Data / hora da reconhecimento clínico",
-            "description" : "Data / hora, estimada ou real, que o diagnóstico ou o problema foi reconhecido por um profissional de saúde.",
-            "comment" : "Datas parciais são aceitáveis. \nSe o tema do cuidado está com idade inferior a um ano, então a data completa ou no mínimo o mês e o ano são necessários para permitir cálculos de idade precisos, por exemplo, se usado para conduzir apoio à decisão. Os dados capturados / importados como \"Idade no momento do reconhecimento clínico\" deve ser convertida para uma data usando o sujeito data de nascimento."
-          },
-          "at0005.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005",
-            "text" : "Severidade",
-            "description" : "Uma avaliação global da severidade do problema ou diagnóstico.",
-            "comment" : "Se a severidade está incluída no nome do Problema / diagnóstico através de códigos pré-coordenados, este elemento de dados torna-se redundante. \nNota: a classificação mais específica da gravidade pode ser gravada utilizando os detalhes específicos SLOT."
-          },
-          "at0030.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0030",
-            "text" : "Data /tempo de resolução",
-            "description" : "Data / tempo, estimado ou atual, de resolução ou de dispensa desse problema ou diagnóstico, como determinado por um profissional de saúde.",
-            "comment" : "Datas parciais são aceitáveis. \nSe o tema do cuidado está com idade inferior a um ano, então a data completa ou no mínimo o mês e o ano são necessários para permitir cálculos de idade precisos, por exemplo, se usado para conduzir apoio à decisão. Os dados capturados / importados como \"Idade na ocasião da resolução\" deve ser convertida para uma data usando o sujeito data de nascimento."
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "Local do corpo",
-            "description" : "Simples identificação de um local do corpo para a localização do problema ou diagnóstico.",
-            "comment" : "A codificação do nome da localização anatômica com uma terminologia é preferível, quando possível.\nUtilize este elemento de dados para gravar localizações anatômicas precoordenadas. Se os requisitos para gravar a localização anatômica são determinados em tempo real através da aplicação ou requerem uma modelagem mais complexa, como localizações relativas, em seguida, use o CLUSTER.anatomical_location ou CLUSTER.relative_location dentro do SLOT 'localização anatômica estruturada\" neste arquétipo.\nOcorrências para este elemento de dados são ilimitadas para permitir cenários clínicos tais como a descrição de uma erupção cutânea em vários locais, mas em que todos os outros atributos são idênticos. Se a localização anatômica é incluída ao nome do Problema / diagnóstico, através de códigos pré-coordenados, este elemento de dados torna-se redundante."
           }
         },
         "nb" : {
@@ -1615,7 +1527,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "767E39313E0D137FA9E95FE7477DEEF8"
+        "PARENT:MD5-CAM-1.0.1" : "E3A8F38126B720CBCBCA085F2190A241"
       },
       "details" : {
         "de" : {
@@ -1981,19 +1893,6 @@
             "text" : "Other relevant condition",
             "description" : "*Identification of the problem or diagnosis, by name.(en)",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
-          },
-          "at0077.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0077",
-            "text" : "*Date of onset(en)",
-            "description" : "*Estimated or actual date/time that signs or symptoms of the problem/diagnosis were first observed.\n(en)"
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "*Body site(en)",
-            "description" : "*Identification of a simple body site for the location of the problem or diagnosis.(en)",
-            "comment" : "*Coding of the name of the anatomical location with a terminology is preferred, where possible.\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant. \n\n(en)"
           }
         },
         "es-ar" : {
@@ -2003,13 +1902,6 @@
             "text" : "Other relevant condition",
             "description" : "Identificación del problema o diagnóstico, por nombre.",
             "comment" : "Se prefiere la codificación del nombre del problema o diagnóstico mediante una terminología cuando esto sea posible."
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "Sitio corporal",
-            "description" : "Identificación de un sitio corporal simple para la localización o el problema.",
-            "comment" : "Se prefiere la codificación de la localización anatómica mediante una terminología cuando esto sea posible.\nUtilícese este dato para registrar localizaciones anatómicas precoordinadas. Si los requerimientos para el registro de una localización anatómica son determinadas en tiempo de ejecución por parte de la aplicación, o se requiere un modelado más complejo tal como una localización relativa, utilícese CLUSTER.anatomical_location or CLUSTER.relative_location dentro del slot \"localización anatómica estructurada\" en este arquetipo. Las ocurrencias de este dato son ilimitadas para así permitir escenarios clínicos tales como la descripción de un rash en múltiples localizaciones pero donde todos los demás atributos son idénticos. Si la localización anatómica esta incluida en el nombre del problema o diagnóstico mediante códigos precoordinados, este dato se torna redundante."
           }
         },
         "de" : {
@@ -2019,19 +1911,6 @@
             "text" : "Other relevant condition",
             "description" : "*Identification of the problem or diagnosis, by name.(en)",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
-          },
-          "at0077.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0077",
-            "text" : "*Date of onset(en)",
-            "description" : "*Estimated or actual date/time that signs or symptoms of the problem/diagnosis were first observed.\n(en)"
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "*Body site(en)",
-            "description" : "*Identification of a simple body site for the location of the problem or diagnosis.(en)",
-            "comment" : "*Coding of the name of the anatomical location with a terminology is preferred, where possible.\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant. \n\n(en)"
           }
         },
         "en" : {
@@ -2041,20 +1920,6 @@
             "text" : "Other relevant condition",
             "description" : "Identification of the problem or diagnosis, by name.",
             "comment" : "Coding of the name of the problem or diagnosis with a terminology is preferred, where possible."
-          },
-          "at0030.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0030",
-            "text" : "Date/time of resolution",
-            "description" : "Estimated or actual date/time of resolution or remission for this problem or diagnosis, as determined by a healthcare professional.",
-            "comment" : "Partial dates are acceptable. If the subject of care is under the age of one year, then the complete date or a minimum of the month and year is necessary to enable accurate age calculations - for example, if used to drive decision support. Data captured/imported as \"Age at time of resolution\" should be converted to a date using the subject's date of birth.\n"
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "Body site",
-            "description" : "Identification of a simple body site for the location of the problem or diagnosis.",
-            "comment" : "Coding of the name of the anatomical location with a terminology is preferred, where possible.\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant. \n\n"
           }
         },
         "ar-sy" : {
@@ -2064,19 +1929,6 @@
             "text" : "Other relevant condition",
             "description" : "*Identification of the problem or diagnosis, by name.(en)",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
-          },
-          "at0077.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0077",
-            "text" : "*Date of onset(en)",
-            "description" : "*Estimated or actual date/time that signs or symptoms of the problem/diagnosis were first observed.\n(en)"
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "*Body site(en)",
-            "description" : "*Identification of a simple body site for the location of the problem or diagnosis.(en)",
-            "comment" : "*Coding of the name of the anatomical location with a terminology is preferred, where possible.\nUse this data element to record precoordinated anatomical locations. If the requirements for recording the anatomical location are determined at run-time by the application or require more complex modelling such as relative locations then use the CLUSTER.anatomical_location or CLUSTER.relative_location within the 'Structured anatomical location' SLOT in this archetype. Occurrences for this data element are unbounded to allow for clinical scenarios such as describing a rash in multiple locations but where all of the other attributes are identical. If the anatomical location is included in the Problem/diagnosis name via precoordinated codes, this data element becomes redundant. \n\n(en)"
           }
         },
         "pt-br" : {
@@ -2086,34 +1938,6 @@
             "text" : "Other relevant condition",
             "description" : "Identificação do problema ou diagnóstico, por nome.",
             "comment" : "Quando possível, é preferível usar a codificação do nome do problema ou diagnóstico com uma terminologia."
-          },
-          "at0003.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0003",
-            "text" : "Data / hora da reconhecimento clínico",
-            "description" : "Data / hora, estimada ou real, que o diagnóstico ou o problema foi reconhecido por um profissional de saúde.",
-            "comment" : "Datas parciais são aceitáveis. \nSe o tema do cuidado está com idade inferior a um ano, então a data completa ou no mínimo o mês e o ano são necessários para permitir cálculos de idade precisos, por exemplo, se usado para conduzir apoio à decisão. Os dados capturados / importados como \"Idade no momento do reconhecimento clínico\" deve ser convertida para uma data usando o sujeito data de nascimento."
-          },
-          "at0005.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0005",
-            "text" : "Severidade",
-            "description" : "Uma avaliação global da severidade do problema ou diagnóstico.",
-            "comment" : "Se a severidade está incluída no nome do Problema / diagnóstico através de códigos pré-coordenados, este elemento de dados torna-se redundante. \nNota: a classificação mais específica da gravidade pode ser gravada utilizando os detalhes específicos SLOT."
-          },
-          "at0030.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0030",
-            "text" : "Data /tempo de resolução",
-            "description" : "Data / tempo, estimado ou atual, de resolução ou de dispensa desse problema ou diagnóstico, como determinado por um profissional de saúde.",
-            "comment" : "Datas parciais são aceitáveis. \nSe o tema do cuidado está com idade inferior a um ano, então a data completa ou no mínimo o mês e o ano são necessários para permitir cálculos de idade precisos, por exemplo, se usado para conduzir apoio à decisão. Os dados capturados / importados como \"Idade na ocasião da resolução\" deve ser convertida para uma data usando o sujeito data de nascimento."
-          },
-          "at0012.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0012",
-            "text" : "Local do corpo",
-            "description" : "Simples identificação de um local do corpo para a localização do problema ou diagnóstico.",
-            "comment" : "A codificação do nome da localização anatômica com uma terminologia é preferível, quando possível.\nUtilize este elemento de dados para gravar localizações anatômicas precoordenadas. Se os requisitos para gravar a localização anatômica são determinados em tempo real através da aplicação ou requerem uma modelagem mais complexa, como localizações relativas, em seguida, use o CLUSTER.anatomical_location ou CLUSTER.relative_location dentro do SLOT 'localização anatômica estruturada\" neste arquétipo.\nOcorrências para este elemento de dados são ilimitadas para permitir cenários clínicos tais como a descrição de uma erupção cutânea em vários locais, mas em que todos os outros atributos são idênticos. Se a localização anatômica é incluída ao nome do Problema / diagnóstico, através de códigos pré-coordenados, este elemento de dados torna-se redundante."
           }
         },
         "nb" : {
@@ -2285,7 +2109,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "863da9019693df6f111c07c730ac4bc4"
+        "PARENT:MD5-CAM-1.0.1" : "75CFC5B9EEA839B817090412E3EAE7D1"
       },
       "details" : {
         "en" : {
@@ -2570,7 +2394,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9600D96AB99E8C64E6BAC82A2C40AE05"
+        "PARENT:MD5-CAM-1.0.1" : "FBDD7446E1AA5758693D54F2A50BB530"
       },
       "details" : {
         "en" : {
@@ -2905,9 +2729,7 @@
       "termBindings" : {
         "SNOMED-CT" : {
           "at0015.1" : "term:SNOMED-CT::395091006"
-        },
-        "RCD99" : { },
-        "READ2" : { }
+        }
       },
       "terminologyExtracts" : { },
       "valueSets" : { }
@@ -3520,11 +3342,7 @@
       "termDefinitions" : {
         "en" : { }
       },
-      "termBindings" : {
-        "SNOMED-CT" : { },
-        "RCD99" : { },
-        "READ2" : { }
-      },
+      "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
@@ -3552,7 +3370,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "DB522FC91E92B10221F17FA8AE1C6555"
+        "PARENT:MD5-CAM-1.0.1" : "8DD05D4D236D335A21D3584B3F548B1D"
       },
       "details" : {
         "en" : {
@@ -3642,7 +3460,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "590e46cddf1fc8348b48f49aca8cbb77"
+        "PARENT:MD5-CAM-1.0.1" : "5b3e63197553813a07335c1739aafe15"
       },
       "details" : {
         "en" : {
@@ -3999,7 +3817,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "3320dba6a1e9c96849aa0dc9963e98ee"
+        "PARENT:MD5-CAM-1.0.1" : "4df535c303e436b13f783151e0551627"
       },
       "details" : {
         "en" : {
@@ -5073,7 +4891,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "448d70de8abbcabe260e307ff7347fa5"
+        "PARENT:MD5-CAM-1.0.1" : "2FB296613CB5B886894CF7DD572C9D76"
       },
       "details" : {
         "en" : {
@@ -5467,7 +5285,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "aa8530873a668659e1e549c643c273e1"
+        "PARENT:MD5-CAM-1.0.1" : "54DF385596D351E03EE2ED3C226D2834"
       },
       "details" : {
         "en" : {
@@ -5649,7 +5467,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "0771580f852546d471eccc4e3443f6b7"
+        "PARENT:MD5-CAM-1.0.1" : "8DA672E004C3BDD21C14564248DDF846"
       },
       "details" : {
         "en" : {
@@ -6390,7 +6208,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "771333c67a78e1c785dc004d541ca68f"
+        "PARENT:MD5-CAM-1.0.1" : "895F99CC13DF97E2BEE2DD159E440414"
       },
       "details" : {
         "en" : {
@@ -6645,7 +6463,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "771333c67a78e1c785dc004d541ca68f"
+        "PARENT:MD5-CAM-1.0.1" : "895F99CC13DF97E2BEE2DD159E440414"
       },
       "details" : {
         "en" : {
@@ -6905,7 +6723,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "448d70de8abbcabe260e307ff7347fa5"
+        "PARENT:MD5-CAM-1.0.1" : "2FB296613CB5B886894CF7DD572C9D76"
       },
       "details" : {
         "en" : {
@@ -7117,7 +6935,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "aa8530873a668659e1e549c643c273e1"
+        "PARENT:MD5-CAM-1.0.1" : "54DF385596D351E03EE2ED3C226D2834"
       },
       "details" : {
         "en" : {
@@ -7494,7 +7312,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "771333c67a78e1c785dc004d541ca68f"
+        "PARENT:MD5-CAM-1.0.1" : "895F99CC13DF97E2BEE2DD159E440414"
       },
       "details" : {
         "en" : {
@@ -7749,7 +7567,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "771333c67a78e1c785dc004d541ca68f"
+        "PARENT:MD5-CAM-1.0.1" : "895F99CC13DF97E2BEE2DD159E440414"
       },
       "details" : {
         "en" : {
@@ -7958,7 +7776,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "7591df28b6188b3c297f3c6435e3e4e0"
+        "PARENT:MD5-CAM-1.0.1" : "A4C278B59C4D855C741CA3E0C21E9011"
       },
       "details" : {
         "en" : {
@@ -8145,7 +7963,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "7591df28b6188b3c297f3c6435e3e4e0"
+        "PARENT:MD5-CAM-1.0.1" : "A4C278B59C4D855C741CA3E0C21E9011"
       },
       "details" : {
         "en" : {
@@ -8332,7 +8150,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "2D066E7C501C2DAEC625DEE2ECD81DF4"
+        "PARENT:MD5-CAM-1.0.1" : "32F9563D428258E02EFA916126110EBF"
       },
       "details" : {
         "de" : {
@@ -9431,7 +9249,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "aa8530873a668659e1e549c643c273e1"
+        "PARENT:MD5-CAM-1.0.1" : "54DF385596D351E03EE2ED3C226D2834"
       },
       "details" : {
         "en" : {
@@ -9808,7 +9626,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "771333c67a78e1c785dc004d541ca68f"
+        "PARENT:MD5-CAM-1.0.1" : "895F99CC13DF97E2BEE2DD159E440414"
       },
       "details" : {
         "en" : {
@@ -10063,7 +9881,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "771333c67a78e1c785dc004d541ca68f"
+        "PARENT:MD5-CAM-1.0.1" : "895F99CC13DF97E2BEE2DD159E440414"
       },
       "details" : {
         "en" : {
@@ -10272,7 +10090,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "7591df28b6188b3c297f3c6435e3e4e0"
+        "PARENT:MD5-CAM-1.0.1" : "A4C278B59C4D855C741CA3E0C21E9011"
       },
       "details" : {
         "en" : {
@@ -10459,7 +10277,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "448d70de8abbcabe260e307ff7347fa5"
+        "PARENT:MD5-CAM-1.0.1" : "2FB296613CB5B886894CF7DD572C9D76"
       },
       "details" : {
         "en" : {
