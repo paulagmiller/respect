@@ -35,7 +35,7 @@ This admin archetype is intended to be the main container for any patient contac
 		["original_namespace"] = <"uk.org.clinicalmodels">
 		["original_publisher"] = <"Apperta UK">
 		["custodian_namespace"] = <"uk.org.clinicalmodels">
-		["MD5-CAM-1.0.1"] = <"8DA672E004C3BDD21C14564248DDF846">
+		["MD5-CAM-1.0.1"] = <"78aebb81026170c83ca536cf51786bbb">
 		["build_uid"] = <"cd7ecbbd-87d3-43f7-8d9d-c135ee9b6355">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -95,7 +95,7 @@ definition
 					}
 					CLUSTER[at0021] occurrences matches {0..*} matches {    -- Participant
 						items cardinality matches {1..*; unordered} matches {
-							ELEMENT[at0022] occurrences matches {0..1} matches {    -- Role
+							ELEMENT[at0022] occurrences matches {0..*} matches {    -- Role
 								value matches {
 									DV_TEXT matches {*}
 								}
