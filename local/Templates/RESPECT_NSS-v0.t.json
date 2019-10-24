@@ -2792,7 +2792,9 @@
       "termBindings" : {
         "SNOMED-CT" : {
           "at0015.1" : "term:SNOMED-CT::395091006"
-        }
+        },
+        "RCD99" : { },
+        "READ2" : { }
       },
       "terminologyExtracts" : { },
       "valueSets" : { }
@@ -3405,7 +3407,11 @@
       "termDefinitions" : {
         "en" : { }
       },
-      "termBindings" : { },
+      "termBindings" : {
+        "SNOMED-CT" : { },
+        "RCD99" : { },
+        "READ2" : { }
+      },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
@@ -5530,7 +5536,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "8DA672E004C3BDD21C14564248DDF846"
+        "PARENT:MD5-CAM-1.0.1" : "78aebb81026170c83ca536cf51786bbb"
       },
       "details" : {
         "en" : {
@@ -5704,6 +5710,7 @@
                 "children" : [ {
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "ELEMENT",
+                  "occurrences" : "0..1",
                   "nodeId" : "at0022.1",
                   "attributes" : [ {
                     "@type" : "C_ATTRIBUTE",
