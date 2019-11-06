@@ -3,8 +3,12 @@
   "uid" : "fbfd510c-636b-40b4-b0f6-58eedb5da03d",
   "description" : {
     "@type" : "RESOURCE_DESCRIPTION",
-    "originalAuthor" : { },
-    "otherContributors" : [ ],
+    "originalAuthor" : {
+      "organisation" : "NES Digital Service, NHS Scotland",
+      "email" : "paul.miller@nes.scot.nhs.uk",
+      "name" : "Dr Paul Miller"
+    },
+    "otherContributors" : [ "Dr Ian McNicoll - original author" ],
     "lifecycleState" : {
       "codeString" : "Initial"
     },
@@ -36,9 +40,9 @@
           },
           "codeString" : "en"
         },
-        "purpose" : "Representing the dataset for capture, reporting and auditing the details of ReSPECT.",
-        "keywords" : [ ],
-        "use" : "",
+        "purpose" : "Representing the dataset for capture, reporting and auditing the details of ReSPECT- Recommended Summary Plan for Emergency Care and Treatment",
+        "keywords" : [ "Anticipatory Care Plan, ACP, ReSPECT" ],
+        "use" : "Intended for use in applications in NHS and Social Care in Scotland where the ReSPECT process is being used.",
         "misuse" : "",
         "originalResourceUri" : { },
         "otherDetails" : { }
