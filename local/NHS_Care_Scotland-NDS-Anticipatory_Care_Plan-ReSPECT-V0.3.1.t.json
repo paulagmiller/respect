@@ -6679,7 +6679,7 @@
                 "children" : [ {
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "ELEMENT",
-                  "occurrences" : "0..*",
+                  "occurrences" : "0..0",
                   "nodeId" : "at0022.1",
                   "attributes" : [ {
                     "@type" : "C_ATTRIBUTE",
@@ -6690,10 +6690,10 @@
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "value",
-                        "existence" : "0..1",
                         "children" : [ {
                           "@type" : "C_STRING",
-                          "constraint" : [ "Legal proxy or parent", "Family or friend or other", "GP", "Lead consultant" ]
+                          "rmTypeName" : "STRING",
+                          "constraint" : [ "Parent", "Legal Proxy", "Family", "Friend", "General Practitioner", "Lead Consultant", "Other" ]
                         } ]
                       } ],
                       "attributeTuples" : [ ]
