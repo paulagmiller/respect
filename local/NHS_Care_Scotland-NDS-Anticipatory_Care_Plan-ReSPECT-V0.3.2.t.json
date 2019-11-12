@@ -384,7 +384,7 @@
                 "children" : [ {
                   "@type" : "C_ARCHETYPE_ROOT",
                   "rmTypeName" : "EVALUATION",
-                  "occurrences" : "0..*",
+                  "occurrences" : "0..1",
                   "nodeId" : "at0.1",
                   "attributes" : [ ],
                   "attributeTuples" : [ ],
