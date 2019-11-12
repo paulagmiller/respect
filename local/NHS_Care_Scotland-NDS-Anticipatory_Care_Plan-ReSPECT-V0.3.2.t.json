@@ -5837,7 +5837,7 @@
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "CLUSTER",
-          "occurrences" : "0..*",
+          "occurrences" : "0..1",
           "nodeId" : "at0016.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
@@ -5864,7 +5864,7 @@
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "CLUSTER",
-          "occurrences" : "0..*",
+          "occurrences" : "0..1",
           "nodeId" : "at0025.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
@@ -6092,7 +6092,7 @@
               "rmTypeName" : "DV_CODED_TEXT",
               "defaultValue" : {
                 "defining_code" : {
-                  "code_string" : "at0002",
+                  "code_string" : "at0003",
                   "@type" : "CODE_PHRASE"
                 },
                 "@type" : "DV_CODED_TEXT"
@@ -6107,7 +6107,7 @@
                   "terminologyId" : {
                     "value" : "local"
                   },
-                  "constraint" : [ "ac0.2" ],
+                  "constraint" : [ "ac0.4" ],
                   "selectedTerminologies" : [ ]
                 } ]
               } ],
@@ -6177,6 +6177,18 @@
             "text" : "(Synthesized)",
             "code" : "ac0.2",
             "description" : "*"
+          },
+          "ac0.3" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.3",
+            "description" : "*"
+          },
+          "ac0.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.4",
+            "description" : "*"
           }
         }
       },
@@ -6192,6 +6204,16 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.2",
           "members" : [ "at0002" ]
+        },
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
+          "members" : [ "at0002", "at0003" ]
+        },
+        "ac0.4" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.4",
+          "members" : [ "at0003" ]
         }
       }
     },
@@ -8548,7 +8570,7 @@
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "CLUSTER",
-          "occurrences" : "0..*",
+          "occurrences" : "0..1",
           "nodeId" : "at0026.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
