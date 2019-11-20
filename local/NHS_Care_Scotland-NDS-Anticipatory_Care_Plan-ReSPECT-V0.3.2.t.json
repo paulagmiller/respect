@@ -282,7 +282,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "NHS_Care_Scotland-NDS-Anticipatory_Care_Plan-ReSPECT-V0.3.2",
+          "text" : "NDS RESPECT Form",
           "description" : "Document to communicate information to others, commonly in response to a request from another party."
         }
       },
