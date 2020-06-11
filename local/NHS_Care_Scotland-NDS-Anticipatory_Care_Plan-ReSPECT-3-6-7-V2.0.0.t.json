@@ -28,7 +28,7 @@
       "Sign off" : "",
       "Speciality" : "",
       "User roles" : "",
-      "MD5-CAM-1.0.1" : "df495ffb3261719f1c5ceef8cbafc1db",
+      "MD5-CAM-1.0.1" : "1de5057a3cff3708d6117a5228a5b913",
       "PARENT:MD5-CAM-1.0.1" : "1DA7D8EDC23CF1B673C05E6E8FE28EB1"
     },
     "details" : {
@@ -534,7 +534,7 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "SECTION",
-          "nodeId" : "at0008",
+          "nodeId" : "at0008.1",
           "attributes" : [ {
             "@type" : "C_ATTRIBUTE",
             "rmAttributeName" : "items",
@@ -643,7 +643,7 @@
           "at0001.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0001.1",
-            "text" : "Shared understanding",
+            "text" : "2. Shared understanding",
             "description" : "Heading containing summary of relevant information for the ReSPECT process."
           },
           "at0013.1" : {
@@ -667,8 +667,14 @@
           "at0012.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0012.1",
-            "text" : "Form reviewed",
+            "text" : "9. Review of plan",
             "description" : "Details of review dates and clinician for the confirmation of validity (e.g. for change of condition)."
+          },
+          "at0008.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0008.1",
+            "text" : "5. Capacity for involvement",
+            "description" : "Details of capacity and representation at the time of completion of the ReSPECT form."
           }
         }
       },
@@ -9560,7 +9566,7 @@
                         "children" : [ {
                           "@type" : "C_STRING",
                           "rmTypeName" : "STRING",
-                          "constraint" : [ "Involved in planning", "Primary emergency contact", "/.+/" ]
+                          "constraint" : [ "Involved in planning", "Primary emergency contact", "Legal welfare proxy", "/.+/" ]
                         } ]
                       } ],
                       "attributeTuples" : [ ]
