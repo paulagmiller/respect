@@ -28,7 +28,7 @@
       "Sign off" : "",
       "Speciality" : "",
       "User roles" : "",
-      "MD5-CAM-1.0.1" : "24ce2908082f9a0b59d542045f026d59",
+      "MD5-CAM-1.0.1" : "27472442f05cb04870eee6c892d4e991",
       "PARENT:MD5-CAM-1.0.1" : "1DA7D8EDC23CF1B673C05E6E8FE28EB1"
     },
     "details" : {
@@ -299,7 +299,7 @@
   "rmName" : "openehr",
   "rmRelease" : "1.0.3",
   "generated" : true,
-  "templateId" : "NHS_Care_Scotland-NDS-Anticipatory_Care_Plan-ReSPECT-3-6-7-V2.0.0",
+  "templateId" : "NHS_Care_Scotland-NDS-Anticipatory_Care_Plan-ReSPECT",
   "otherMetaData" : { },
   "templateOverlays" : [ {
     "@type" : "TEMPLATE_OVERLAY",
@@ -8352,7 +8352,23 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "52ff6328c731f2e45677dd6660a2fb4c"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To provide an overall heading for the recording of details of ReSPECT process.",
+          "keywords" : [ ],
+          "use" : "Use as an overall heading for the recording of details of ReSPECT process.",
+          "copyright" : "© Clinical Models UK",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-SECTION.respect_headings_v3-o6-o7.v0",
     "differential" : true,
