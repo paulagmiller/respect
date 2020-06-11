@@ -30,13 +30,13 @@ description
 		["original_namespace"] = <"uk.org.clinicalmodels">
 		["original_publisher"] = <"UK Clinical Models">
 		["custodian_namespace"] = <"uk.org.clinicalmodels">
-		["MD5-CAM-1.0.1"] = <"fda5b75f244d0fdfbea56df5a9ce8f8c">
+		["MD5-CAM-1.0.1"] = <"946dedd3e21c757f4f5824d933a18e7e">
 		["build_uid"] = <"41d4b2c4-1e0d-4c6e-af8b-1bacb8cf783e">
 		["revision"] = <"0.0.1-alpha">
 	>
 
 definition
-	ADMIN_ENTRY[at0000] matches {    -- capacity_respect
+	ADMIN_ENTRY[at0000] matches {    -- Capacity_ReSPECT
 		data matches {
 			ITEM_TREE[at0001] matches {    -- Tree
 				items cardinality matches {0..*; unordered} matches {
@@ -76,7 +76,7 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"capacity_respect">
+					text = <"Capacity_ReSPECT">
 					description = <"Summary of capacity and representation information at the time of completing ReSPECT process.">
 				>
 				["at0001"] = <
