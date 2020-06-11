@@ -28,7 +28,7 @@
       "Sign off" : "",
       "Speciality" : "",
       "User roles" : "",
-      "MD5-CAM-1.0.1" : "e849ccabfac737a1accaac2de3a304a9",
+      "MD5-CAM-1.0.1" : "91a12ec28b66a0d862f301f405edf1fb",
       "PARENT:MD5-CAM-1.0.1" : "1DA7D8EDC23CF1B673C05E6E8FE28EB1"
     },
     "details" : {
@@ -169,27 +169,6 @@
     "nodeId" : "at0000.1",
     "attributes" : [ {
       "@type" : "C_ATTRIBUTE",
-      "rmAttributeName" : "category",
-      "children" : [ {
-        "@type" : "C_COMPLEX_OBJECT",
-        "rmTypeName" : "DV_CODED_TEXT",
-        "attributes" : [ {
-          "@type" : "C_ATTRIBUTE",
-          "rmAttributeName" : "defining_code",
-          "children" : [ {
-            "@type" : "C_TERMINOLOGY_CODE",
-            "rmTypeName" : "CODE_PHRASE",
-            "occurrences" : "1..1",
-            "terminologyId" : {
-              "value" : "openehr"
-            },
-            "constraint" : [ "433" ]
-          } ]
-        } ],
-        "attributeTuples" : [ ]
-      } ]
-    }, {
-      "@type" : "C_ATTRIBUTE",
       "rmAttributeName" : "context",
       "children" : [ {
         "@type" : "C_COMPLEX_OBJECT",
@@ -316,7 +295,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "658b0219-6322-42e7-94c7-89532ceaaadc",
+  "buildUid" : "86532389-d405-3bdd-ba9d-c4af20f38a2c",
   "rmName" : "openehr",
   "rmRelease" : "1.0.3",
   "generated" : true,
@@ -3354,8 +3333,8 @@
                         "upper" : 100,
                         "lowerIncluded" : true,
                         "upperIncluded" : true,
-                        "upperUnbounded" : false,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : false
                       } ]
                     } ]
                   } ],
@@ -3414,9 +3393,7 @@
       "termBindings" : {
         "SNOMED-CT" : {
           "at0015.1" : "term:SNOMED-CT::395091006"
-        },
-        "RCD99" : { },
-        "READ2" : { }
+        }
       },
       "terminologyExtracts" : { },
       "valueSets" : { }
@@ -4019,11 +3996,7 @@
       "termDefinitions" : {
         "en" : { }
       },
-      "termBindings" : {
-        "SNOMED-CT" : { },
-        "RCD99" : { },
-        "READ2" : { }
-      },
+      "termBindings" : { },
       "terminologyExtracts" : { },
       "valueSets" : { }
     },
@@ -5648,8 +5621,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -6166,24 +6139,6 @@
       "conceptCode" : "at0000",
       "termDefinitions" : {
         "en" : {
-          "ac0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.1",
-            "description" : "*"
-          },
-          "ac0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.2",
-            "description" : "*"
-          },
-          "ac0.3" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.3",
-            "description" : "*"
-          },
           "ac0.4" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
@@ -6330,8 +6285,8 @@
                     "lower" : 0,
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "upperUnbounded" : true,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
                   } ]
                 } ]
               } ],
@@ -6493,8 +6448,8 @@
                     "lower" : 0,
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "upperUnbounded" : true,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
                   } ]
                 } ]
               } ],
@@ -6658,36 +6613,6 @@
       "conceptCode" : "at0000",
       "termDefinitions" : {
         "en" : {
-          "ac0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.1",
-            "description" : "*"
-          },
-          "ac0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.2",
-            "description" : "*"
-          },
-          "ac0.3" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.3",
-            "description" : "*"
-          },
-          "ac0.4" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.4",
-            "description" : "*"
-          },
-          "ac0.5" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.5",
-            "description" : "*"
-          },
           "ac0.6" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
@@ -7288,42 +7213,6 @@
       "conceptCode" : "at0000",
       "termDefinitions" : {
         "en" : {
-          "ac0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.1",
-            "description" : "*"
-          },
-          "ac0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.2",
-            "description" : "*"
-          },
-          "ac0.3" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.3",
-            "description" : "*"
-          },
-          "ac0.4" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.4",
-            "description" : "*"
-          },
-          "ac0.5" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.5",
-            "description" : "*"
-          },
-          "ac0.6" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.6",
-            "description" : "*"
-          },
           "ac0.7" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
@@ -7520,8 +7409,8 @@
                     "lower" : 0,
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "upperUnbounded" : true,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
                   } ]
                 } ]
               } ],
@@ -7563,42 +7452,6 @@
             "code" : "at0002.1",
             "text" : "Telephone number",
             "description" : "The actual contact point details, in a form that is meaningful to the designated communication system (i.e. phone number or email address)."
-          },
-          "ac0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.1",
-            "description" : "*"
-          },
-          "ac0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.2",
-            "description" : "*"
-          },
-          "ac0.3" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.3",
-            "description" : "*"
-          },
-          "ac0.4" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.4",
-            "description" : "*"
-          },
-          "ac0.5" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.5",
-            "description" : "*"
-          },
-          "ac0.6" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.6",
-            "description" : "*"
           },
           "ac0.7" : {
             "@type" : "ARCHETYPE_TERM",
@@ -7761,8 +7614,8 @@
                     "lower" : 0,
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "upperUnbounded" : true,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
                   } ]
                 } ]
               } ],
@@ -8382,8 +8235,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -8908,12 +8761,6 @@
       "conceptCode" : "at0000",
       "termDefinitions" : {
         "en" : {
-          "ac0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.1",
-            "description" : "*"
-          },
           "ac0.2" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
@@ -9050,8 +8897,8 @@
                     "lower" : 0,
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "upperUnbounded" : true,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
                   } ]
                 } ]
               } ],
@@ -9213,8 +9060,8 @@
                     "lower" : 0,
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "upperUnbounded" : true,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
                   } ]
                 } ]
               } ],
@@ -9378,12 +9225,6 @@
       "conceptCode" : "at0000",
       "termDefinitions" : {
         "en" : {
-          "ac0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.1",
-            "description" : "*"
-          },
           "ac0.2" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
@@ -9583,42 +9424,6 @@
       "conceptCode" : "at0000",
       "termDefinitions" : {
         "en" : {
-          "ac0.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.1",
-            "description" : "*"
-          },
-          "ac0.2" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.2",
-            "description" : "*"
-          },
-          "ac0.3" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.3",
-            "description" : "*"
-          },
-          "ac0.4" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.4",
-            "description" : "*"
-          },
-          "ac0.5" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.5",
-            "description" : "*"
-          },
-          "ac0.6" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.6",
-            "description" : "*"
-          },
           "ac0.7" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
