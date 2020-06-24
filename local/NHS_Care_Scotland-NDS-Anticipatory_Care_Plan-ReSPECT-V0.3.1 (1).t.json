@@ -28,7 +28,7 @@
       "Sign off" : "",
       "Speciality" : "",
       "User roles" : "",
-      "MD5-CAM-1.0.1" : "f05e178c375fdb66c7d3c7b8cc7f7ddf",
+      "MD5-CAM-1.0.1" : "c606f5ee47efde98c994fb41b50bdf78",
       "PARENT:MD5-CAM-1.0.1" : "1DA7D8EDC23CF1B673C05E6E8FE28EB1"
     },
     "details" : {
@@ -253,7 +253,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "NHS_Care_Scotland-NDS-Anticipatory_Care_Plan-ReSPECT-V0.3.1",
+          "text" : "NHS_Care_Scotland-NDS-Anticipatory_Care_Plan-ReSPECT",
           "description" : "Document to communicate information to others, commonly in response to a request from another party.",
           "comment" : "THIS IS THE ONE YOU NEED TO PUT IN CKM"
         }
