@@ -28,7 +28,7 @@
       "Sign off" : "",
       "Speciality" : "",
       "User roles" : "",
-      "MD5-CAM-1.0.1" : "27472442f05cb04870eee6c892d4e991",
+      "MD5-CAM-1.0.1" : "e179d543d1f77dc4a441ea7d402ac66d",
       "PARENT:MD5-CAM-1.0.1" : "1DA7D8EDC23CF1B673C05E6E8FE28EB1"
     },
     "details" : {
@@ -262,7 +262,8 @@
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
           "text" : "NDS RESPECT Form",
-          "description" : "Document to communicate information to others, commonly in response to a request from another party."
+          "description" : "Document to communicate information to others, commonly in response to a request from another party.",
+          "comment" : "This is the one you fixed and need to copy over to the one you need to upload to CKM\n"
         }
       },
       "es-ar" : {
