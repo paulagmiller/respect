@@ -30,7 +30,7 @@ description
 		["original_namespace"] = <"uk.org.clinicalmodels">
 		["original_publisher"] = <"UK Clinical Models">
 		["custodian_namespace"] = <"uk.org.clinicalmodels">
-		["MD5-CAM-1.0.1"] = <"2162D1A4F6792BA00E8E2A7406B59DF7">
+		["MD5-CAM-1.0.1"] = <"4f330cb6dd781d87b335e95c94c806ed">
 		["build_uid"] = <"6f76d270-335f-41a4-93ba-0bb2bb9b42ad">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -43,6 +43,11 @@ definition
 					ELEMENT[at0002] occurrences matches {0..1} matches {    -- Sufficient capacity
 						value matches {
 							DV_BOOLEAN matches {*}
+						}
+					}
+					ELEMENT[at0008] occurrences matches {0..1} matches {    -- Lacks capacity in what way
+						value matches {
+							DV_TEXT matches {*}
 						}
 					}
 					ELEMENT[at0003] occurrences matches {0..1} matches {    -- Legal proxy
@@ -101,6 +106,10 @@ ontology
 				["at0007"] = <
 					text = <"Person holding parental responsibility">
 					description = <"Details of person holding parental responsibility in the case of a child.">
+				>
+				["at0008"] = <
+					text = <"Lacks capacity in what way">
+					description = <"">
 				>
 			>
 		>
